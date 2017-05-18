@@ -1,3 +1,9 @@
 body, html {
 	background-color: #EDEDED !important;
 }
+
+#portfolio .divider{
+	width: 4rem;
+	margin: auto;
+	height: 2px;
+}
