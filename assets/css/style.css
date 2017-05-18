@@ -1,12 +1,14 @@
 body, html {
 	background-color: #EDEDED !important;
 }
-<<<<<<< HEAD
+
+/** para home **/
 body{
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
 }
+
 #home{
 	background: url("../img/bg.jpg") no-repeat center;
 	background-size: cover;
@@ -14,14 +16,23 @@ body{
 	/*display: flex;
 	align-items: center;
 }*/
-=======
-#about-me{
+}
+
+#about-me {
 	padding: 4rem 0;
 }
+
 .w-hr{
 	width: 40px;
 }
+
 .pd-28-0{
 	padding: 2rem 0;
 }
->>>>>>> 89d3c0c1848631cac77ae2d31bda9b0a4be4fd4d
+
+/** portfolio */
+#portfolio .divider{
+	width: 4rem;
+	margin: auto;
+	height: 2px;
+}
