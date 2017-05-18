@@ -1,5 +1,20 @@
 body, html {
 	background-color: #EDEDED !important;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Section: Contact*/
+#contact hr{
+	width: 40px;
+}
+.margin-bottom{
+	margin-bottom: 15px;
+}
+.line-height{
+	line-height: 2.35;
+}
+#info{
+	padding-left: 40px;
 }
 
 /** para home **/
