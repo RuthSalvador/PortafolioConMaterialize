@@ -4,10 +4,8 @@ body, html {
 #about-me{
 	padding: 4rem 0;
 }
-#about-me .divider{
-	width: 4rem;
-	margin: auto;
-	height: 2px;
+.w-hr{
+	width: 40px;
 }
 .pd-28-0{
 	padding: 2rem 0;
