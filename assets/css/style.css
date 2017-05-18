@@ -1,3 +1,14 @@
 body, html {
 	background-color: #EDEDED !important;
 }
+#about-me{
+	padding: 4rem 0;
+}
+#about-me .divider{
+	width: 4rem;
+	margin: auto;
+	height: 2px;
+}
+.pd-28-0{
+	padding: 2rem 0;
+}
