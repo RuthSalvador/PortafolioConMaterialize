@@ -116,27 +116,28 @@
           <form class="col s12 m6">
             <div class="row">
               <div class="input-field col s6 margin-bottom">
-                 <input id="first_name" type="text" class="validate">
+                 <input id="first_name" type="text" class="validate input">
                  <label for="first_name" data-error="wrong" data-success="right">First Name</label>
               </div>
               <div class="input-field col s6 margin-bottom">
-                 <input id="last_name" type="text" class="validate">
+                 <input id="last_name" type="text" class="validate input">
                  <label for="last_name" data-error="wrong" data-success="right">Last Name</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12 margin-bottom">
-                 <input id="email" type="email" class="validate">
+                 <input id="email" type="email" class="validate input">
                  <label for="email" data-error="wrong" data-success="right">E-mail</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                 <textarea id="textarea1" class="materialize-textarea"></textarea>
+                 <textarea id="textarea1" class="materialize-textarea input"></textarea>
                  <label for="textarea1" class="grey-text text-lighten-1">Your Message</label>
               </div>
               <div class="col s12 margin-bottom">
-                 <a class="waves-effect waves-light btn margin-bottom">submit</a>
+                 <span id="error-total" class="error red-text text-accent-4"></span>
+                 <a id="submit" class="waves-effect waves-light btn margin-bottom">submit</a>
               </div>
             </div>
           </form>
